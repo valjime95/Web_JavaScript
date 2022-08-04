@@ -2,7 +2,7 @@
 
 ## Introducción
 
-![](./images/content_lightning_bolt_big.jpg){style="display: block; margin: 0 auto"}
+![](./images/content_lightning_bolt_big.jpg)
 
 Estás presenciando una batalla épica entre dos poderosos hechiceros: **Gandalf** y **Saruman**. Cada hechicero tiene en mente 10 hechizos de poder variable y los va a lanzar uno tras otro. El ganador del duelo será el que gane más de esos enfrentamientos entre hechizos. Los hechizos se representan como una lista de 10 números enteros cuyo valor es igual al poder del hechizo.
 

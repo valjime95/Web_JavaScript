@@ -1,6 +1,6 @@
 # Apocalypsis
 
-![](./images/thewalkingdead.jpeg){style="display: block; margin: 0 auto" }
+![](./images/thewalkingdead.jpeg)
 
 Cargas un arsenal de armas y una mochila con cargadores de munición de tamaño variable para algunos tipos de armas.
 

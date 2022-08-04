@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>JavaScript</title>
+		<style type="text/css">
+			p {
+			  font-family: 'helvetica neue', helvetica, sans-serif;
+			  letter-spacing: 1px;
+			  text-transform: uppercase;
+			  text-align: center;
+			  border: 2px solid rgba(0,0,200,0.6);
+			  background: rgba(0,0,200,0.3);
+			  color: rgba(0,0,200,0.6);
+			  box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+			  border-radius: 10px;
+			  padding: 3px 10px;
+			  display: inline-block;
+			  cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<h2>¿Qué puedes hacer con JS?</h2>
+<!-- 		<section class="sec1"> 
+			<p id="demo">JavaScript puede cambiar contenido HTML.</p>
+			<br>
+			<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+		</section> -->
+
+<!-- 		<section class="sec2">
+			<p id="demo">JavaScript puede cambiar el estilo de un elemento de HTML</p>
+			<br>
+			<button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button>
+		</section> -->
+
+<!-- 		<section class="sec3">
+			<p id="demo">JavaScript puede esconder elementos de HTML.</p>
+			<br>
+			<button type="button" onclick="document.getElementById('demo').style.display='none'">Click Me!</button>
+		</section> -->
+
+<!-- 		<section class="sec4">
+			<p>JavaScript puede mostrar elementos ocultos de HTML.</p>
+			<br>
+			<p id="demo" style="display:none">Hello JavaScript!</p>
+			<button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me!</button>
+		</section> -->
+
+		<section class="sec5">
+			<p>Jugador 1: Valeria</p>
+			<script type="text/javascript">
+				const para = document.querySelector('p');
+
+				para.addEventListener('click', updateName);
+
+				function updateName() {
+				  let name = prompt('Enter a new name');
+				  para.textContent = 'Player 1: ' + name;
+				}
+			</script>
+		</section>
+
+	</body>
+</html>		
